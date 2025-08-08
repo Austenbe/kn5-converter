@@ -1071,8 +1071,16 @@ namespace kn5_converter
 
                     cb.Append("\n}");//Connections end
                     FBXwriter.Write(cb);
+
+
                 }
+
+                //Convert to Binary FBX
+
+                FBXConverter.Converter.ConvertAsciiToBinary(srcModel.modelDir + srcModel.modelName + ".fbx", srcModel.modelDir + srcModel.modelName + "_binary.fbx");
+
             }
+
             else { Console.WriteLine("File already exists: {0}.fbx", srcModel.modelName); }
         }
 
