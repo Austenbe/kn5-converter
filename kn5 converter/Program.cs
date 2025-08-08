@@ -1076,7 +1076,7 @@ namespace kn5_converter
                 }
 
                 //Convert to Binary FBX
-
+                Console.WriteLine("Converting to binary FBX...");
                 FBXConverter.Converter.ConvertAsciiToBinary(srcModel.modelDir + srcModel.modelName + ".fbx", srcModel.modelDir + srcModel.modelName + "_binary.fbx");
 
             }
