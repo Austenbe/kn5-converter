@@ -86,11 +86,11 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>FBXSDK_SHARED</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>C:\Program Files\Autodesk\FBX\FBX SDK\2020.3.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>C:\Program Files\Autodesk\FBX\FBX SDK\2020.3.7\lib\x64\debug\libfbxsdk.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\Program Files\Autodesk\FBX\FBX SDK\2020.3.7\lib\x64\debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\Program Files\Autodesk\FBX\FBX SDK\2020.3.7\lib\x64\release\libfbxsdk.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\Autodesk\FBX\FBX SDK\2020.3.7\lib\x64\release</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -124,11 +124,11 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>FBXSDK_SHARED</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>C:\Program Files\Autodesk\FBX\FBX SDK\2020.3.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>C:\Program Files\Autodesk\FBX\FBX SDK\2020.3.7\lib\x64\debug\libfbxsdk.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\Program Files\Autodesk\FBX\FBX SDK\2020.3.7\lib\x64\debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\Program Files\Autodesk\FBX\FBX SDK\2020.3.7\lib\x64\release\libfbxsdk.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\Autodesk\FBX\FBX SDK\2020.3.7\lib\x64\release</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
